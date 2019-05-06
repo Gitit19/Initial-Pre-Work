@@ -1,4 +1,4 @@
-/* <!-I added padding property to the elementwith red-box.--> */
+/* <!-I gave the h1 element the class of pink-text.--> */
 /* <h2 style="color: red;">CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p
@@ -1060,3 +1060,13 @@
    }
  </style>
  <h1>Hello World</h1>
+ <style>
+   body {
+     background-color: black;
+     font-family: monospace;
+     color: green;
+   }
+     .pink-text {color: pink;
+     }
+ </style>
+ <h1 class= "pink-text"> Hello World!</h1>
