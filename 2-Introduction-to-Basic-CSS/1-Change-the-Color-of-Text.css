@@ -1,4 +1,4 @@
-/* <!-I used !important element to ensure that an element has specific CSS--> */
+/* <!-I used Hex code for a specific color.--> */
 /* <h2 style="color: red;">CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p
@@ -1135,3 +1135,8 @@
    }
  </style>
  <h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
+ <style>
+   body {
+     background-color: #000000;
+   }
+ </style>
