@@ -1,4 +1,4 @@
-/* <!--I increased the padding size.--> */
+<!--I changed the margin of an element.                       .--> */
 /* <h2 style="color: red;">CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p
@@ -708,7 +708,7 @@
     <button type="submit">Submit</button>
   </form>
 </main> */
-<style>
+/* <style>
   .injected-text {
     margin-bottom: -25px;
     text-align: center;
@@ -742,5 +742,11 @@
 
 <div class="box yellow-box">
   <h5 class="box red-box">padding</h5>
+
   <h5 class="box blue-box">padding</h5>
 </div>
+.blue-box {
+   background-color: blue;
+   color: #fff;
+   padding: 20px;
+   margin: 20px;
