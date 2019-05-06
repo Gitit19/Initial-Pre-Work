@@ -1,4 +1,4 @@
-/* <!--I added a padding property to the element with red-box.--> */
+/* <!--I styled HTML the body element & turned the background black--> */
 <h2 style="color: red;">CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
@@ -1008,3 +1008,8 @@ link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" typ
      <h5 class="box red-box">padding</h5>
      <h5 class="box green-box">padding</h5>
    </div>
+   <style>
+   body {
+     background-color: black;
+   }
+   </style>
