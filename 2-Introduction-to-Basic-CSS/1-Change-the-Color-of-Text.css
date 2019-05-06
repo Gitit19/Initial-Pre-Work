@@ -1,4 +1,4 @@
-/* <!-I used abbreviated Hex code.--> */
+/* <!-I used RGB value to change the body background.--> */
 /* <h2 style="color: red;">CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p
@@ -1184,3 +1184,8 @@
  <h1 class="cyan-text">I am cyan!</h1>
 
  <h1 class="green-text">I am green!</h1>
+ <style>
+   body {
+     background-color: rgb(0, 0, 0)
+   }
+ </style>
