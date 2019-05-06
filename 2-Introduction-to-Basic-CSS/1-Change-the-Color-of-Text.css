@@ -1,4 +1,4 @@
-/* <!-I overrode class declaration with an inline style to change the h1 text color to white.--> */
+/* <!-I used !important element to ensure that an element has specific CSS--> */
 /* <h2 style="color: red;">CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p
@@ -1118,3 +1118,20 @@
    }
  </style>
  <h1 id="orange-text" class="pink-text blue-text" style="color: white;" >Hello World!</h1>
+ <style>
+   body {
+     background-color: black;
+     font-family: monospace;
+     color: green;
+   }
+   #orange-text {
+     color: orange;
+   }
+   .pink-text {
+     color: pink !important;
+   }
+   .blue-text {
+     color: blue;
+   }
+ </style>
+ <h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
