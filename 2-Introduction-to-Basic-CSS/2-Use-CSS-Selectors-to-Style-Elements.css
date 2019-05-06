@@ -1,4 +1,4 @@
-/* <!--I added an ID attribute to overrode the blue-text element.--> */
+/* <!--I overrode the class declarations with inline styles to change h1 text color to white.--> */
 <h2 style="color: red;">CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
@@ -1062,3 +1062,20 @@ link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" typ
      }
    </style>
    <h1 class="pink-text blue-text" "orange-text" id="orange-text" >Hello World!</h1>
+   <style>
+     body {
+       background-color: black;
+       font-family: monospace;
+       color: green;
+     }
+     #orange-text {
+       color: orange;
+     }
+     .pink-text {
+       color: pink;
+     }
+     .blue-text {
+       color: blue;
+     }
+   </style>
+   <h1 id="orange-text" class="pink-text blue-text" style="color: white;" >Hello World!</h1>
