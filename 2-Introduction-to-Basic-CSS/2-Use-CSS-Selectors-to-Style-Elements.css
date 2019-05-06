@@ -1,4 +1,4 @@
-/* <!--I styled HTML the body element & turned the background black--> */
+/* <!--I created an h1 element, gave all the elements a green color and a monospace font.--> */
 <h2 style="color: red;">CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
@@ -1013,3 +1013,11 @@ link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" typ
      background-color: black;
    }
    </style>
+   <style>
+     body {
+       background-color: black;
+       color: Green;
+       font-family: monospace;
+     }
+   </style>
+   <h1>Hello World</h1>
