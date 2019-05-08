@@ -1,4 +1,4 @@
-/* <!-I customized a CSS variable.--> */
+/* <!-I attached a fallback value to a CSS variable.--> */
 /* <h2 style="color: red;">CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p
@@ -1629,7 +1629,7 @@
      background: var(--penguin-skin);
      /* change code above */
 
-     width: 50%;
+     /* width: 50%;
      height: 45%;
      border-radius: 70% 70% 60% 60%;
    }
@@ -1640,10 +1640,10 @@
      left: 23.5%;
 
      /* change code below */
-     background: var(--penguin-skin);
+     /* background: var(--penguin-skin); */
      /* change code above */
 
-     width: 53%;
+     /* width: 53%;
      height: 45%;
      border-radius: 70% 70% 100% 100%;
    }
@@ -1651,7 +1651,7 @@
    .right-hand {
      --penguin-skin: gray;
      top: 0%;
-     left: -5%;
+     left: -5%; */ */
       */
      /* change code below */
      /* background: var(--penguin-skin); */
@@ -1823,3 +1823,30 @@
      <div class="beak-bottom"></div>
    </div>
  </div> */
+ /* .penguin {
+     --penguin-skin: black;
+     position: relative;
+     margin: auto;
+     display: block;
+     margin-top: 5%;
+     width: 300px;
+     height: 300px;
+   }
+
+   .penguin-top {
+     top: 10%
+  left: 25%;
+
+     /* change code below */
+     background: var(--pengiun-skin, black);
+     /* change code above */
+
+     width: 50%;
+     height: 45%;
+     border-radius: 70% 70% 60% 60%;
+   }
+
+   .penguin-bottom {
+     --pengiun-skin: black;
+     top: 40%;
+     left: 23.5%; */
