@@ -1626,7 +1626,7 @@
      left: 25%;
 
      /* change code below */
-     background: var(--penguin-skin);
+     /* background: var(--penguin-skin); */
      /* change code above */
 
      /* width: 50%;
@@ -1651,8 +1651,7 @@
    .right-hand {
      --penguin-skin: gray;
      top: 0%;
-     left: -5%; */ */
-      */
+     /* left: -5%;
      /* change code below */
      /* background: var(--penguin-skin); */
      /* change code above */
@@ -1824,29 +1823,29 @@
    </div>
  </div> */
  /* .penguin {
-     --penguin-skin: black;
-     position: relative;
-     margin: auto;
-     display: block;
-     margin-top: 5%;
-     width: 300px;
-     height: 300px;
-   }
+    --penguin-skin: black;
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
 
-   .penguin-top {
-     top: 10%
-  left: 25%;
+  .penguin-top {
+    top: 10%
+ left: 25%; */
 
-     /* change code below */
-     background: var(--pengiun-skin, black);
-     /* change code above */
+    /* change code below */
+    /* background: var (--pengin-skin, black); */
+    /* change code above */
+    /*
+    width: 50%;
+    height: 45%;
+    border-radius: 70% 70% 60% 60%;
+  }
 
-     width: 50%;
-     height: 45%;
-     border-radius: 70% 70% 60% 60%;
-   }
-
-   .penguin-bottom {
-     --pengiun-skin: black;
-     top: 40%;
-     left: 23.5%; */
+  .penguin-bottom {
+    Background: var (--pengiun-skin: black;
+    top: 40%;
+    left: 23.5%; */
