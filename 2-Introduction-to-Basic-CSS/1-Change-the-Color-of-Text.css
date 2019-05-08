@@ -1,4 +1,4 @@
-/* <!-I changed the variable of the penguin belly.--> */
+/* <!-I used a media query to change penguin size and skin variables.--> */
 /* <h2 style="color: red;">CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p
@@ -2080,3 +2080,13 @@
     width: 300px;
     height: 300px;
   } */
+  /* @media (max-width: 350px) {
+     :root {
+
+       /* add code below */
+       --penguin-size: 200px;
+       --penguin-skin: black;
+       /* add code above */
+
+     }
+   } */
