@@ -1,4 +1,4 @@
-/* I aligned h4 tag's text. */
+/* I added a width property to the entire card. */
 /* <style>
   h4 {
     text-align: center;
@@ -8,9 +8,12 @@
   }
   .links {
     margin-right: 20px;
-
+    text-align: left;
   }
   .fullCard {
+    img{
+      width: 245px;
+    }
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 10px 5px;
