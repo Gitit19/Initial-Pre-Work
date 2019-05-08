@@ -1,4 +1,4 @@
-/* I applied flex-direction property to create column in header .profile-name. */
+/* I added CsSS property justify-content to the #box-container element. */
 /* <style>
 
   #box-container {
@@ -317,3 +317,28 @@
     <button class="like-btn">Like</button>
   </div>
 </footer> */
+/* <style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    justify-content: center
+
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 100%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 25%;
+    height: 100%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div> */
