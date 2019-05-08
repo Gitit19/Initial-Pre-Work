@@ -1837,7 +1837,7 @@
  left: 25%; */
 
     /* change code below */
-    /* background: var (--pengin-skin, black); */
+    /* background: var (--pengiun-skin, black); */
     /* change code above */
     /*
     width: 50%;
@@ -1846,6 +1846,6 @@
   }
 
   .penguin-bottom {
-    Background: var (--pengiun-skin: black;
+    Background: var (--pengiun-skin: black);
     top: 40%;
     left: 23.5%; */

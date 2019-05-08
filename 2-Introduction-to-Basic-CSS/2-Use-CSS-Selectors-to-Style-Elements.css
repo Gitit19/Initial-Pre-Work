@@ -1777,7 +1777,7 @@ link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" typ
 left: 25%;
 
   /* change code below */
-  background: var (--pengin-skin, black);
+  background: var (--pengiun-skin, black);
   /* change code above */
 
   width: 50%;
@@ -1786,6 +1786,6 @@ left: 25%;
 }
 
 .penguin-bottom {
-  Background: var (--pengiun-skin: black;
+  Background: var (--pengiun-skin: black);
   top: 40%;
   left: 23.5%;
