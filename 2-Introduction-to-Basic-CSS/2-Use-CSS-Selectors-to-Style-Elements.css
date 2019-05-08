@@ -1,4 +1,4 @@
-/* <!--I customized a CSS variable.--> */
+/* <!--I attached a fallback value to a CSS variable.--> */
 <h2 style="color: red;">CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
@@ -1762,3 +1762,30 @@ link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" typ
     <div class="beak-bottom"></div>
   </div>
 </div>
+  .penguin {
+      --penguin-skin: black;
+      position: relative;
+      margin: auto;
+      display: block;
+      margin-top: 5%;
+      width: 300px;
+      height: 300px;
+    }
+
+    .penguin-top {
+      top: 10%
+   left: 25%;
+
+      /* change code below */
+      background: var(--pengiun-skin, black);
+      /* change code above */
+
+      width: 50%;
+      height: 45%;
+      border-radius: 70% 70% 60% 60%;
+    }
+
+    .penguin-bottom {
+      --pengiun-skin: black;
+      top: 40%;
+      left: 23.5%;
