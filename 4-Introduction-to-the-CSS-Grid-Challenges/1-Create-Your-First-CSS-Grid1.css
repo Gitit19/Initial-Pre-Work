@@ -1,4 +1,4 @@
-/* I used grid-gap to introducce a gap between rows and columns.  */
+/* I used grid-column with the class item5.  */
 /* <style>
   .d1{background:LightSkyBlue;}
   .d2{background:LightSalmon;}
@@ -189,4 +189,38 @@
   <div class="d3">3</div>
   <div class="d4">4</div>
   <div class="d5">5</div>
+</div> */
+/* <style>
+  .item1{background:LightSkyBlue;}
+  .item2{background:LightSalmon;}
+  .item3{background:PaleTurquoise;}
+  .item4{background:LightPink;}
+
+  .item5 {
+    background: PaleGreen; */
+    /* add your code below this line */
+
+
+    /* add your code above this line */
+  /* }
+
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-column: 2/4;
+  }
+</style>
+
+<div class="container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>
+  <div class="item4">4</div>
+  <div class="item5">5</div>
 </div> */
