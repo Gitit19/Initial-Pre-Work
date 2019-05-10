@@ -15,3 +15,4 @@
 // var b;
 // b = 7; //The variable 'b' is equal to 7
 // b = a;
+// I created a new value a and gave it a value of 9
