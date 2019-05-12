@@ -1,0 +1,16 @@
+/* I improved compatibility of browser with fallback. */
+Background: var (--pengiun-skin: black);
+top: 40%;
+left: 23.5%; */
+/<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: #FF0000;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div> */

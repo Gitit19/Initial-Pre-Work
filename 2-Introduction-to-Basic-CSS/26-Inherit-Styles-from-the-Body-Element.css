@@ -1,0 +1,9 @@
+/* I created an h1 element, gave all the elements a green color and a monospace font. */
+<style>
+  body {
+    background-color: black;
+    color: Green;
+    font-family: monospace;
+  }
+</style>
+<h1>Hello World</h1>

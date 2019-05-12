@@ -1,3 +1,10 @@
+/* I used CSS class to style an element. */
+<style>
+  .red-text {
+    color: red;
+  }
+</style>
+class='red-text'>CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
 

@@ -1,0 +1,13 @@
+/* I used a media query to change penguin size and skin variables. */
+width: 300px;
+height: 300px;
+} */
+/ @media (max-width: 350px) {
+ :root {
+
+   /add code below */
+   --penguin-size: 200px;
+   --penguin-skin: black;
+   /add code above */
+
+ }
