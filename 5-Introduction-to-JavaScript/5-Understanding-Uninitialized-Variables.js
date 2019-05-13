@@ -1,4 +1,4 @@
-I initialized the veriables.
+// I initialized the veriables.
 // Initialize these three variables
 var a = 5;
 var b = 10;
