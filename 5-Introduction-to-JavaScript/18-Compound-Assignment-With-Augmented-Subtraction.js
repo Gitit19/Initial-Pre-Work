@@ -1,4 +1,4 @@
-I convertrd a, b, and c using -= opereator.
+// I convertrd a, b, and c using -= opereator.
 var a = 11;
 var b = 9;
 var c = 3;
