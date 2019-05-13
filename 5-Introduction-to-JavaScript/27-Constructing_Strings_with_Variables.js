@@ -1,4 +1,4 @@
-I set myName to a string and build myStr with myName between the strings "My name is " and " and I am well!"
+// I set myName to a string and build myStr with myName between the strings "My name is " and " and I am well!"
 // Example
 var ourName = "freeCodeCamp";
 var ourStr = "Hello, our name is " + ourName + ", how are you?";

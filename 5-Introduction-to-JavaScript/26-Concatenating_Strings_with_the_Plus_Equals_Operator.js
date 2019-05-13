@@ -1,4 +1,4 @@
-I built myStr over several lines by concatenating two strings.
+// I built myStr over several lines by concatenating two strings.
 // Example
 var ourStr = "I come first. ";
 ourStr += "I come second.";
