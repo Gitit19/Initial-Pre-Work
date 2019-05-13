@@ -1,4 +1,4 @@
-I built a myStr variable from strings.
+// I built a myStr variable from strings.
 // Example
 var ourStr = "I come first. " + "I come second.";
 
