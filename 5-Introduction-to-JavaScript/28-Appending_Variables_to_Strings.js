@@ -1,5 +1,5 @@
 // I appended variables to a string using the plus equals (+=) operator.
-/ Example
+// Example
 var anAdjective = "awesome!";
 var ourStr = "freeCodeCamp is ";
 ourStr += anAdjective;
@@ -7,5 +7,5 @@ ourStr += anAdjective;
 // Only change code below this line
 
 var someAdjective = "fun";
-var myStr = "Learning to code is ";
-myStr += anAdjective;
+var myStr = "Learning to code is";
+myStr += someAdjective;
